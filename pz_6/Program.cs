@@ -14,7 +14,6 @@ namespace pz_6
             do
             {
                 x += x * 0.1;
-                //Console.Write("дней:" + y);
                 y++;
             }
             while (y == 20);
