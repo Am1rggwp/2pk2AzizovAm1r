@@ -14,20 +14,20 @@ namespace pz_5
             }
             Console.WriteLine();
 
-  
+
             Console.WriteLine("Задание №2:");
             char simvol;
             int c = 1;
             for (simvol = 'b'; c < 6; simvol++, c++)
             {
-                Console.WriteLine(simvol);
+                Console.Write(simvol);
             }
-            
+
 
             Console.WriteLine("Задание №3:");
-            for (int n = 0; n < 4; n++)
+            for (int m = 0; m < 5; m++)
             {
-                for (int m = 0; m < 5; m++)
+                for (int n = 0; n < 4; n++)
                 {
                     Console.Write("#");
                 }
@@ -46,7 +46,7 @@ namespace pz_5
             Console.WriteLine();
 
             Console.WriteLine("Задание №5:");
-            for (int i = 1 , j = 39; (i - j) != 20; i++, j--)
+            for (int i = 1, j = 40; (i - j) != 20; i++, j--)
             {
                 Console.WriteLine("{0} {1}", i, j);
             }
