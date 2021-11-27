@@ -13,7 +13,8 @@ namespace PZ_15
             {
                 char[] ch = str[i].ToCharArray();//массив с одним сиволом
                 if (ch[0] == ch[ch.Length - 1]) Console.WriteLine(str[i]);//При нахождении строчки с одним и тем же сиволом(в начале и в конце) выводит на экран 
+                Console.ReadLine();
             }
-        }
+        }   
     }
 }
