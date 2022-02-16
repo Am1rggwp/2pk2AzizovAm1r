@@ -1,29 +1,61 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace PZ_3_simple_class
+class Computer
 {
-    static class ProgramP 
+    int ID;
+    int totalHDDMemory;
+    int processorFrequency;
+    static int s;
+    static int PF;
+    int ERROR;
+
+    public int ID_1
     {
-        static void Main(string[] args)
+
+        get { return ID; }
+        set
         {
-            Computer comp1 = new Computer(228337, 32, 3);
-            Computer comp2 = new Computer(233832, 16, 2);
-            Computer comp3 = new Computer(974359, 8, 4);
-            Computer comp4 = new Computer(753487, 4);
-
-            comp1.GetCompName();
-            comp2.GetCompName();
-            comp3.GetCompName();
-            comp4.GetCompName();
-
-
-
+            if (value < 0) ID = 00000;
+            else ID = value;
+        }
+    }
+    
+    public int ProcessorFrequency
+    {
+        get { return processorFrequency; }
+        set
+        {
+            ERROR = value;
+            if (value < 1.5 || value >  5) processorFrequency =00000;
+            else processorFrequency = value;
         }
 
-
     }
+
+    public Computer(int a, int b, int c = 10)
+    {
+        ID_1 = a;
+        totalHDDMemory = b;
+        ProcessorFrequency = c;
+        s += totalHDDMemory;
+
+        if (ERROR > 2) PF += 1;
+    }
+
+    public void processorFrequency_1()
+    {
+        Console.WriteLine("ПК с частотой " + PF);
+    }
+
+    public void GetMemory()
+    {
+        Console.WriteLine("Сумма памяти всех ПК состовляет=" + s + "Гб");
+    }
+
+    public void GetCompName()
+    {
+        Console.WriteLine($"ID = {ID}, totalHDDMemory = {totalHDDMemory} Гб, processorFrequency = {processorFrequency} Гц ");
+    }
+
+
 }
