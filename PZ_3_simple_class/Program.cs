@@ -21,11 +21,15 @@ namespace PZ_3_simple_class
             comp3.GetCompName();
             comp4.GetCompName();
 
-            comp4.GetMemory();
 
+            comp4.GetMemory();
             comp4.processorFrequency_1();
 
+            Smartphone phone = new Smartphone(654342,8,5,5,6);
 
+            phone.GetCompName();
+
+            Console.ReadLine();
         }
 
 
