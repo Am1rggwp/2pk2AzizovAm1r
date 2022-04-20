@@ -1,0 +1,26 @@
+using System;
+
+public class Smartphone
+{
+    int dioganal
+    {
+        get { return (int)dioganal;} 
+        set { dioganal = value; }
+    }
+     
+
+    int diapazon
+    {
+        get { return (int)diapazon; }
+        set { diapazon = value;}
+    }
+
+    public void GetSmartphone(int a, int b)
+    {
+        dioganal = a;
+        diapazon = b;
+
+        Console.WriteLine("Р”РёР°РїРѕР·РѕРЅ С‚РµР»РµС„РѕРЅР° =" +a +"РґСЋР№РјРѕРІ" +"/n РўРёРї РёРЅС‚РµСЂРЅРµС‚Р° = " + b + "G");
+    }
+}
+
