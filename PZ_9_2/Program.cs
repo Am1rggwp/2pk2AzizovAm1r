@@ -1,5 +1,5 @@
 ﻿using System;
-delegate void fast();
+delegate void StopCar();
 namespace PZ_9_2
 {
     internal class Program

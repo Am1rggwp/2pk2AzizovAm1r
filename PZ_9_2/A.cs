@@ -9,11 +9,9 @@ namespace PZ_9_2
     
     internal class A
     {
+        public event StopCar ivent;
         public int speed;
 
-
-
-        
         public void slow()
         {
             for (int i = 0; i < 201; i++)
@@ -23,6 +21,8 @@ namespace PZ_9_2
                 
                
             }
+            ivent += 
+
         }
     }
 }

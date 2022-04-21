@@ -33,7 +33,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Калькулятор", "�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZ_7_текстовый редактор", "PZ_7_текстовый редактор\PZ_7_текстовый редактор.csproj", "{44624EA0-26AC-47BF-8B63-7CA86A6A05B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZ_9_2", "PZ_9_2\PZ_9_2.csproj", "{1F0EA326-3849-47A1-93F4-31E18E307176}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PZ_9_2", "PZ_9_2\PZ_9_2.csproj", "{1F0EA326-3849-47A1-93F4-31E18E307176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZ_10_2", "PZ_10_2\PZ_10_2.csproj", "{2E7B17CF-7CC9-4C12-AA89-450B807E35EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{1F0EA326-3849-47A1-93F4-31E18E307176}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F0EA326-3849-47A1-93F4-31E18E307176}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F0EA326-3849-47A1-93F4-31E18E307176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E7B17CF-7CC9-4C12-AA89-450B807E35EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E7B17CF-7CC9-4C12-AA89-450B807E35EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E7B17CF-7CC9-4C12-AA89-450B807E35EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E7B17CF-7CC9-4C12-AA89-450B807E35EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

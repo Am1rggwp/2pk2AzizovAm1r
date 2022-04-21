@@ -10,7 +10,7 @@ namespace PZ_9_2
     {
         A car = new A();
 
-        public event fast ivent;
+        public event StopCar ivent;
 
         public B (A peremennaya)
         {
@@ -27,17 +27,17 @@ namespace PZ_9_2
                 if (car.speed > 80 && car.speed <=120)
                 {
                     ivent += DANGER;
-                    ivent();
+                    
                 }
                 else if (car.speed > 120)
                 {
                     ivent += MegaDanger;
-                    ivent();
+                    
                 }
                 else
                 {
                     ivent += NotDanger;
-                    ivent();
+                    
                 }
                 
             }
@@ -47,17 +47,17 @@ namespace PZ_9_2
                 if (car.speed > 80 && car.speed <= 120)
                 {
                     ivent += DANGER;
-                    ivent();
+                   
                 }
                 else if (car.speed > 120)
                 {
                     ivent += MegaDanger;
-                    ivent();
+                   
                 }
                 else
                 {
                     ivent += NotDanger;
-                    ivent();
+                    
                 }
                 
             }
