@@ -7,21 +7,16 @@ namespace PZ_9_2
 
 
         static void name()
-        { Console.WriteLine("Лада"); }
+        { Console.WriteLine("Лада Granda"); }
+
 
         static void Main(string[] args)
         {
-
-            A bob1 = new A();
-            B bob = new B(bob1);
-
-            bob.patrul();
-            bob1.slow();
-            bob.patrul();
-
-            Console.ReadLine();
-            
-     
+            Car speedometer = new Car();
+            Patrul signal = new Patrul();
+            speedometer.MyEvent += signal.DANGER;
+            speedometer.speed();
+            speedometer.MyEvent += signal.MegaDanger;
 
         }
     }
